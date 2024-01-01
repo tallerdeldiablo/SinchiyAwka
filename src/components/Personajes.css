@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+:root {
+  --color-soft-cream: #eed4b3; /* Background color */
+  --text-color-dark: #333; /* Text color for character names */
+  --color-earth-brown: #5C4033;
+  --color-tan: #D2B48C;
+  --color-gold: #DAA520;
+  --color-neutral-white: #FFFFFF;
+  --color-terracotta-red: #CB4F3F;
+}
+
+
+
+/* Personajes.css */
+.character-name {
+  font-family: 'Bungee', cursive; /* Usa la fuente importada */
+  color: #000000; /* Color negro */
+  font-weight: bold; /* Texto en negrita */
+  text-transform: uppercase; /* Transforma el texto a mayúsculas */
+  /* Otros estilos como tamaño de fuente, etc. */
+}
+
+.personajes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  padding: 10px;
+}
+
+
+.character-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px; /* Margen reducido para acercarlos más */
+  width: calc(15% - 10px); /* Reducción del tamaño en un 20% */
+  /* Otros estilos... */
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.character-image {
+  width: 80%; /* Reducir el tamaño de la imagen en un 20% */
+  height: auto;
+  margin-bottom: 8px;
+}
+
+/* Personajes.css */
+.character-name {
+  font-size: 1rem; /* Adjust font size as needed */
+  text-align: center;
+  color: #000000; /* Black color for the text */
+  font-weight: bold; /* Makes the text bold */
+}
+
+.navigation-arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navigation-arrows button {
+  padding: 10px 20px;
+  background-color: var(--color-terracotta-red); /* Terracotta red for the button background */
+  color: var(--color-neutral-white); /* White for the text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navigation-arrows button:hover {
+  background-color: var(--color-gold); /* Gold color on hover */
+}
+
+
+@media (max-width: 600px) {
+  .character-card {
+    width: calc(40% - 10px); /* Ajuste para pantallas más pequeñas */
+  }
+  .character-card {
+    width: 50%; /* Adjust the width for smaller screens */
+  }
+
+  .character-name {
+    font-size: 0.8rem; /* Slightly smaller font size for smaller screens */
+  }
+}

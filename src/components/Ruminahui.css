@@ -1,0 +1,37 @@
+.ruminahui-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f5f5f5; /* Example background color */
+    border-radius: 8px; /* Optional: if you want rounded corners */
+  }
+  
+  .ruminahui-image-container {
+    flex-basis: 40%; /* Adjust the width as necessary */
+    padding: 20px;
+  }
+  
+  .ruminahui-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .ruminahui-info-container {
+    flex-basis: 60%;
+    padding: 20px;
+    background: url('../assets/bk-torn.png') no-repeat;
+    background-size: cover;
+  
+    color: #333;
+  }
+  
+  .ruminahui-name {
+    margin-bottom: 15px;
+  }
+  
+  .ruminahui-description {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  
