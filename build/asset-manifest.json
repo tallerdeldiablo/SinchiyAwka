@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.b296f4b8.css",
+    "main.js": "./static/js/main.04121e58.js",
+    "static/js/787.db86ab11.chunk.js": "./static/js/787.db86ab11.chunk.js",
+    "static/media/paper.png": "./static/media/paper.04f296cd514268ebc2bc.png",
+    "static/media/ruminahui.png": "./static/media/ruminahui.d6bcb7ae75887bb63d7e.png",
+    "static/media/portada.png": "./static/media/portada.9fa0293bbd51814c769b.png",
+    "static/media/anton.png": "./static/media/anton.061b867dccd1e258755c.png",
+    "static/media/atahualpa.png": "./static/media/atahualpa.0e6c662524751321ca56.png",
+    "static/media/pintag.png": "./static/media/pintag.4d43abbc2ced55de968b.png",
+    "static/media/eloy.png": "./static/media/eloy.bca4567ab6beacaf39e9.png",
+    "static/media/quilago.png": "./static/media/quilago.6e7f6dac25d90c21c379.png",
+    "static/media/jumanji.png": "./static/media/jumanji.83ec9ff4128996fecc75.png",
+    "static/media/logo.png": "./static/media/logo.8b1ab2de95e2e57d58ba.png",
+    "index.html": "./index.html",
+    "main.b296f4b8.css.map": "./static/css/main.b296f4b8.css.map",
+    "main.04121e58.js.map": "./static/js/main.04121e58.js.map",
+    "787.db86ab11.chunk.js.map": "./static/js/787.db86ab11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b296f4b8.css",
+    "static/js/main.04121e58.js"
+  ]
+}
